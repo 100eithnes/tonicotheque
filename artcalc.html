@@ -26,14 +26,14 @@
 
       input {
         font-family: 'Libre Baskerville', serif;
-        margin-left: 3%;
-        font-size: 18px;
+        margin-left: 2%;
+        font-size: 17px;
         font-weight: 700;
         border-color: #100202;
         border-style: double;
         background-color: #100202;
         color: #ade895;
-        width: 200px;
+        width: 120px;
       }
 
       .output {
@@ -55,11 +55,11 @@
 <p> hangingHeight = (paintingHeight / 2) - hangerToTop + eyeLevel</p>
 <br>
 
-<h4>&gt; painting height : <input type="number" id="paintingHeight" placeholder="put numberz here!"></h4>
-<h4>&gt; hanger-to-top height : <input type="number" id="hangerToTop" placeholder="put numberz here!"></h4>
-<h4>&gt; eye-level height : <input type="number" id="eyeLevel" placeholder="put numberz here!"></h4>
+<h4>&gt; painting height : <input type="number" id="paintingHeight" placeholder="type here!"></h4>
+<h4>&gt; hanger-to-top height : <input type="number" id="hangerToTop" placeholder="type here!"></h4>
+<h4>&gt; eye-level height : <input type="number" id="eyeLevel" placeholder="type here!"></h4>
 <br>
-<p class="output"><b>the hook should be &nbsp;<span id="result"> </span>&nbsp; inches from the floor.</b></p>
+<p class="output"><b>your hook should be &nbsp;<span id="result">x</span>&nbsp; inches from the floor.</b></p>
 
   <script>
     const pHeight = document.getElementById("paintingHeight");
