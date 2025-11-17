@@ -69,7 +69,7 @@
 
     function calculateHangingHeight() { 
       // parse gets rid of the trailing 0s and toFixed fixes the decimal to 2 spots
-      result.textContent = parseFloat(((Number(pHeight.value) / 2) - Number(htTop.value) + Number(eLev.value)).toFixed(2));
+      result.textContent = parseFloat(((Number(pHeight.value) / 2) - Number(htTop.value) + Number(eLev.value)).toFixed(3));
     }
 
     pHeight.addEventListener('input', calculateHangingHeight);
